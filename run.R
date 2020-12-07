@@ -1,0 +1,10 @@
+library(shiny)
+library(shinydashboard)
+library(shinythemes)
+library(dplyr)
+library(tibble)
+library(pool)
+library(rlang)
+
+source("modules/app.R", local=TRUE)
+shinyApp(ui = ui, server = server)
