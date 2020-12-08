@@ -15,7 +15,7 @@ tbls <- reactiveFileReader(500, NULL, "project.db",
                            function(x) dbListTables(db)
 )
 
-tblsheader <- dashboardHeader(title="Construction Equipment")
+header <- dashboardHeader(title="Construction Equipment")
 
 
 sidebar <- dashboardSidebar(
