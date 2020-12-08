@@ -70,6 +70,7 @@ createEntry <- function(input, output, session, pool) {
       }
     }
     
+    # check if UNIQUE constraint in entry is met
     tryCatch(
       {
         dbAppendTable(pool, input$tableName, entryValues)      
