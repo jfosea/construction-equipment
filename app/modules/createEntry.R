@@ -3,6 +3,7 @@
 createEntryUI <- function(id) {
   ns <- NS(id)
   tagList(
+    h2("Create a New a Entry"),
     actionButton(ns("create"), label="Create entry", class="pull-right btn-info"),
     selectInput(ns("tableName"), label="Choose a table", character(0)),
     uiOutput(ns("fields"))
