@@ -13,6 +13,12 @@ through the following links:
 
 - <https://rstudio.com/products/rstudio/download/>
 
+## One Time Install
+
+Go to setup.R and `CTRL`+`A` and then `CTRL`+`ENTER` the entire R script to install all the packages. It may ask you to restart, just keep saying yes until all the packages are installed. 
+        
+   ![Install](images/0-install.JPG)
+
 ## Run App
 
 Once R and Rstudio has been downloaded and installed, do the following:
