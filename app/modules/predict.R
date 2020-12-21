@@ -66,7 +66,7 @@ predict <-function(input, output, session, pool, reqColInTable) {
     }
     
     output$timeToMalf <- renderText({paste("Expected time to malfunction \n in hours: ", a())})
-    output$cond <- renderText({paste("Estimated condition \n in hours: ", b)})
+    output$cond <- renderText({paste("Estimated condition: ", b)})
   })
   
   

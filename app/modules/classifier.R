@@ -114,7 +114,7 @@ predictBoth <- function(db, values) {
   lmPredVals <- predict.lm(linModel, newdata = test)
   acc1 <- cor(lmPredVals, test[,7]) # high correlation: 80.8%
   cat("Time to Malfunction Model Correlation: ", acc1)
-  cat("\nConidtion Model Correlation: ", 0.986)
+  cat("\nCondition Model Correlation: ", 0.986)
 
   return(c(p1, p2R))
   
