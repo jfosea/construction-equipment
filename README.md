@@ -17,19 +17,19 @@ through the following links:
 
 Once R and Rstudio has been downloaded and installed, do the following:
 
-1. Open the project, by clicking on `constructin-equipment.Rproj`.
+1. Go to the `app` folder and open the project by clicking on `constructin-equipment.Rproj`.
 
     ![Open project](images/1-open-project.JPG)
 
-2. Run `setup.R`.
+2. Go to the file `app.R`.
 
-    - This will install and load all prerequisite libraries needed.
+     ![Open app](images/2-app.JPG)
+     
 
-  
+3. Highlight the entire code using `CTRL`+`A` then press `CTRL`+`ENTER`.
 
-3. Set the input values for `run.R` at the top of the file.
+4. A new window should open up containing the web program.
 
-   
-4. Run `run.R` and observe results.
 
+    ![Web program](images/4-web.JPG)
  
