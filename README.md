@@ -1,5 +1,9 @@
 # construction-equipment
 
+## Description
+
+This repository stores the ShinyApp that I made as a project intended to record and manage construction equipment maintenance. This project uses a SQL database to store different construction equipment maintenance status. The goal of this project is to help construction managers keep track of equipment wear and tear in order to order the correct replacement parts or schedule appropriate maintenance.
+
 ## Requirements
 
 This program requires R and RStudio, which can be downloaded and installed
